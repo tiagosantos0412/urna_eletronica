@@ -4,15 +4,15 @@
         numeros: 5,
         candidatos: [
             {
-                numero: 38123,
+                numero: '38123',
                 nome: 'Edd Beltrano',
                 partido: 'ABC',
                 fotos:[
-                    {url: '3811.jpg', legenda: 'vereador', small: false}
+                    {url: '38123.jpg', legenda: 'vereador', small: false}
                 ]
             },
             {
-                numero: 77222,
+                numero: '77222',
                 nome: 'Sicrano de Souza',
                 partido: 'DEF',
                 fotos:[
@@ -26,7 +26,7 @@
         numero: 2,
         candidatos:[
             {
-                numero: 99,
+                numero: '99',
                 nome: 'Beltrano Novais',
                 partido: 'ABC',
                 vice: 'Tião',
@@ -36,7 +36,7 @@
                 ]
             },
             {
-                numero: 84,
+                numero: '84',
                 nome: 'Fulano dos Santos',
                 partido: 'DEF',
                 vice: 'Osmar',
