@@ -1,50 +1,50 @@
- let etapas = [
+let etapas = [
     {
         titulo: 'VEREADOR',
         numeros: 5,
         candidatos: [
             {
-                numero: '38123',
-                nome: 'Edd Beltrano',
+                numero: '38111',
+                nome: 'Fulano de Tal',
                 partido: 'ABC',
                 fotos:[
-                    {url: '38123.jpg', legenda: 'vereador', small: false}
+                    {url:'38111.jpg', legenda: 'Vereador'}
                 ]
             },
             {
                 numero: '77222',
-                nome: 'Sicrano de Souza',
-                partido: 'DEF',
+                nome: 'Beltrano da Silva',
+                partido: 'DEFG',
                 fotos:[
-                    {url: '77222.jpg', legenda: 'vereador'}
+                    {url:'77222.jpg', legenda: 'Vereador'}
                 ]
             },
         ]
     },
     {
         titulo: 'PREFEITO',
-        numero: 2,
-        candidatos:[
+        numeros: 2,
+        candidatos: [
             {
                 numero: '99',
-                nome: 'Beltrano Novais',
+                nome: 'Ciclano',
                 partido: 'ABC',
-                vice: 'Tião',
+                vice: 'Cic',
                 fotos:[
-                    {url: '99,jpg', legenda:'Prefeito'},
-                    {url: '99_2.jpg', legenda:'Vice-prefeito', small:true}
+                    {url:'99.jpg', legenda: 'Prefeito'},
+                    {url:'99_2.jpg', legenda: 'Vice-Prefeito', small: true}
                 ]
             },
             {
                 numero: '84',
-                nome: 'Fulano dos Santos',
-                partido: 'DEF',
-                vice: 'Osmar',
+                nome: 'Zulano',
+                partido: 'QWERTY',
+                vice: 'Zul',
                 fotos:[
-                    {url: '84;jpg', legenda:'Prefeito'},
-                    {url: '84_2,jpg', legenda:'Vice-prefeito', small:true}
+                    {url:'84.jpg', legenda: 'Prefeito'},
+                    {url:'84_2.jpg', legenda: 'Vice-Prefeito', small: true}
                 ]
-            }
+            },
         ]
     }
- ];
+];
